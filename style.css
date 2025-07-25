@@ -1,0 +1,20 @@
+/* style.css */
+.main .block-container {
+    background-color: #f0f2f6;
+    padding-top: 2rem;
+}
+
+div[data-testid="stButton"] > button {
+    border-radius: 20px;
+    background-color: #1E88E5;
+    color: white;
+    border: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+}
+
+div[data-testid="stButton"] > button:hover {
+    background-color: #1565C0;
+    color: white;
+    border: none;
+}

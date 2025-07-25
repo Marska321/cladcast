@@ -1,0 +1,6 @@
+# requirements.txt
+streamlit
+Pillow
+requests
+firebase-admin
+groq
