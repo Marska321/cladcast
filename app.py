@@ -55,7 +55,7 @@ else:
     cols = st.columns(5)
     for i, item in enumerate(wardrobe):
         with cols[i % 5]:
-            st.image(item["image_url"], caption=item["description"], use_column_width=True)
+            st.image(item["image_url"], caption=item["description"], use_container_width=True)
 
 st.divider()
 st.header("Get Your Outfit Recommendation")
@@ -72,4 +72,5 @@ if st.button("What Should I Wear Tomorrow?", type="primary", use_container_width
             
             st.subheader("Tomorrow's Weather in Cape Town")
             st.write(weather_data)
+
             st.markdown(recommendation)
